@@ -5,3 +5,9 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def incluye(cadena, caracter)
+  cadena.include?(caracter)
+end
+
+puts incluye(cadena, caracter)
